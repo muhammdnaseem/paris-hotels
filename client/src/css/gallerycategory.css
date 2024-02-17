@@ -1,0 +1,103 @@
+
+.gallery-title
+{
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 22.5%;
+    left: 38.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.btn-default.filter-button
+{
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    margin-left: 10px;
+
+}
+.btn-default.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid black;
+    background: gray;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 10px;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: gray;
+    color: white;
+}
+ 
+
+/*.gallery-category{
+    overflow-x: scroll;
+}*/
+.gallery_product.filter
+{
+    margin-bottom: 30px;
+    width: 300px;
+    margin: 0px 10px;
+}
+.gallery_product p{
+    max-height: 80px;
+}
+img.gallery-image{
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+     border-radius: 30px 0 30px 0;
+  margin-top: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+@media (max-width: 767px) {
+img.gallery-image{
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+     border-radius: 30px 0 30px 0;
+  margin-top: 20px;
+    height: 300px;
+    width: 300px;
+}
+.btn-default.filter-button
+{
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.btn-default.filter-button:hover
+{
+    color: #ffffff;
+    background-color: gray;
+
+}
+.btn-default:active .filter-button:active
+{
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: gray;
+    color: white;
+}
+}

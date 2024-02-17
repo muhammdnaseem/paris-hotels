@@ -1,0 +1,96 @@
+
+
+.slider {
+  margin:0 20px;
+  overflow:"hidden";
+  padding:2rem 0;
+}
+
+.slider img {
+  width: 100%;
+  border-radius:10px;
+}
+
+.react-multi-carousel-list {
+padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button{
+border: none;
+background: rgb(255, 68, 68);
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+background: rgb(255, 68, 68) !important;
+}
+.react-multiple-carousel__arrow {
+    background-color: white;
+    fill: black; 
+}
+
+
+
+.multi-slide-box{
+    width: 350px;
+    height: 400px;
+}
+
+.multi-slider-main-content
+{
+    width: 90%;
+    margin-left: 30px;
+}
+.multi-slider-main-content p
+{
+    font-size: 20px;
+}
+.multi-slider-main-content Button
+{
+    margin-left: 0px;
+}
+
+
+
+.multi-slider-content{
+    padding-left: 30px;
+    margin-top: -100px;
+    color: black;
+}
+.multi-slider-content .row .col-8{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.multi-slider-content h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.multi-slider-content Button{
+  margin-left: 0;
+  margin-top: 60%;
+}
+img.slider-image{
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    height: 400px;
+}
+
+
+/* ... your existing styles ... */
+
+@media (max-width: 767px) {
+  .multi-slider-content .row .col-12 {
+    /* Adjust the layout for mobile screens */
+    padding: 10px;
+  }
+  .multi-slider-content .row .col-12 .multi-slider-content h3 {
+    /* Adjust font size for mobile screens */
+    font-size: 20px;
+  }
+  .multi-slider-content Button {
+    /* Adjust margin for mobile screens */
+    margin-top: 10px;
+  }
+  .multi-slider-content{
+    padding-left: 0px;
+    margin-top: -100px;
+}
+}

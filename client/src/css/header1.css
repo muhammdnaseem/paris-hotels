@@ -1,0 +1,47 @@
+#header {
+  background-color: rgba(12, 11, 9, 0.6);
+    border-bottom: 1px solid white;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  top: -20px;
+  color: white; /* Set text color to white */
+}
+
+#header.header-scrolled {
+  background: rgba(0, 0, 0, 0.85);
+  border-bottom: 1px solid #37332a;
+  position: sticky;
+}
+a.navbar-brand{
+  color: white;
+}
+a.nav-link{
+  color: white;
+}
+button.navbar-toggler.collapsed{
+  color: white;
+}
+
+@media (max-width: 767px) {
+  #header {
+    /* Remove position: relative; */
+    background-color: black;
+    border-bottom: 1px solid white;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 15px 0;
+    margin-top: 40px;
+    color: white; /* Set text color to white for smaller screens */
+  }
+
+  .navbar-collapse {
+    z-index: 999; /* Set a higher z-index for the mobile menu */
+  }
+ a.navbar-brand{
+  color: black;
+}
+a.nav-link{
+  color: black;
+}
+}

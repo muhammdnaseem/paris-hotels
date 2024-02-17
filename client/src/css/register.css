@@ -1,0 +1,16 @@
+.privacy{
+margin-bottom: 100;
+
+}
+.form-control{
+    margin-top: -3px;
+    margin-bottom: -3px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+.title{
+    color: blue;
+}
+.title-content{
+    text-align: center;
+}

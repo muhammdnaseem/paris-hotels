@@ -1,0 +1,7 @@
+.product-description{
+    display: none;
+}
+.img:hover .product-description{
+    margin-top: -200px;
+    display: block;
+}

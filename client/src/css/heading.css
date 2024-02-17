@@ -1,0 +1,24 @@
+.main-heading{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+}
+.second-heading{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+}
+.main-large-heading{
+    text-align: left;
+    font-size: 100px;
+    font-weight: 1000;
+    font-family: "Times New Roman", Times, serif;
+}
+.main-page-heading{
+    padding: 20px;
+    padding-right: 400px;
+  font-size: 30px;
+font-family: "Cursive", Times, serif;
+}

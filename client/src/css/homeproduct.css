@@ -1,0 +1,22 @@
+.content{
+    padding-left: 50px;
+    margin-top: -150px;
+    color: white;
+}
+img{
+    width: 100%;
+}
+.content h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.content Link.link-style{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
